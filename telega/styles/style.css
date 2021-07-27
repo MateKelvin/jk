@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    background-color: #F2F7FF;
+}
+
+header {
+    background-color: #F2F7FF;
+}
+.menu {
+    width: 100%;
+    max-width: 1110px;
+    margin: 34px 142px 59px 165px;
+    position: absolute;
+
+}
+.menubar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logo-text{
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.menu-right {
+    position: absolute;
+    right: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.bar {
+    text-decoration: none;
+    margin-left: 63.33px;
+        font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.bar_1{
+    text-decoration: none;
+    color: #685ED6;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.container{
+    padding-top: 198px;
+    display: flex;
+    padding-right: 158px;
+    position: relative;
+}
+
+.container-desc{
+    padding-left: 165px;
+
+}
+
+.container-ilustration {
+    position: absolute;
+    left: 608px;
+    top: 195px;
+}
+.title{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #685ED6;
+    max-width: 383px;
+    margin: 0;
+}
+
+.title_01{
+    color: #1D2530;
+}
+
+.desc{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #1D2530;
+    max-width: 482px;
+    margin: 24px 0 32px;
+    
+}
+
+.desc_01 {
+    color: #685ED6;
+    font-weight: 800;
+}
+
+.btn {
+    text-decoration: none;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #ffffff;
+    background: #685ED6;
+    box-shadow: 0px 10px 20px;
+    border-radius: 6px;
+    padding: 12px 32px;
+}
+
+
+@font-face {
+    font-family: "._Gilroy-ExtraBold";
+    src: url("../fonts/._Gilroy-ExtraBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
