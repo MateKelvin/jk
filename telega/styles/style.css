@@ -5,57 +5,32 @@ body {
     background-color: #F2F7FF;
 }
 
-header {
-    background-color: #F2F7FF;
-}
-.menu {
+.header {
     width: 100%;
+}
+
+.header-container {
+    height: 110px;
     max-width: 1110px;
-    margin: 34px 142px 59px 165px;
-    position: absolute;
-
-}
-.menubar {
+    margin: 0 auto;
     display: flex;
-    width: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 
-.logo-text{
-    font-family: Gilroy;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 .menu-right {
-    position: absolute;
-    right: 0;
     display: flex;
-    list-style: none;
-    padding: 0;
 }
 
 .bar {
     text-decoration: none;
-    margin-left: 63.33px;
-        font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-}
-
-.bar_1{
-    text-decoration: none;
-    color: #685ED6;
+    list-style: none;
+    margin: 0 30px;
     font-family: Gilroy;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 20px;
     line-height: 26px;
+    color: #1D2530;
 }
 
 .container{
@@ -108,9 +83,13 @@ header {
     font-weight: 800;
 }
 
+.ul {
+    padding-left: 0;
+}
+
 .btn {
     text-decoration: none;
-    font-family: Gilroy;
+    font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -123,9 +102,12 @@ header {
     padding: 12px 32px;
 }
 
+.bar_1 {
+    margin-right: 0;
+}
 
 @font-face {
-    font-family: "._Gilroy-ExtraBold";
+    font-family: "Gilroy";
     src: url("../fonts/._Gilroy-ExtraBold.otf") format("truetype");
     font-style: normal;
     font-weight: normal;
