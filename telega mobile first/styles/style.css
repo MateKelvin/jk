@@ -120,22 +120,35 @@ body {
   height: 100%;
 }
 
-.title {
+.desc-title {
+  margin: 3px 0 32px;
   font-family: Gilroy;
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
   line-height: 40px;
 }
-.title-word {
+.desc-title-word {
   color: #685ED6;
 }
-
-.desc {
-  margin: 32px 0;
+.desc-description {
   font-family: Gilroy;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
+}
+.desc-btn {
+  background-color: #685ED6;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 32px;
+  margin: 32px 0 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
 }
