@@ -33,20 +33,28 @@ body {
     color: #1D2530;
 }
 
+.bar_1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #685ED6;
+}
+
+.banner{
+    width: 100%;
+    height: 956px;
+}
 .container{
-    padding-top: 198px;
+    max-width: 1133px;
     display: flex;
-    padding-right: 158px;
+    margin: 0 auto;
+    padding-top: 80px;
     position: relative;
 }
 
-.container-desc{
-    padding-left: 165px;
-
-}
-
 .container-ilustration {
-    position: absolute;
     left: 608px;
     top: 195px;
 }
@@ -102,8 +110,21 @@ body {
     padding: 12px 32px;
 }
 
-.bar_1 {
-    margin-right: 0;
+.container-spots{
+    position: absolute;
+
+}
+
+.spot_01{
+    position: absolute;
+    left: 579px;
+    top: -66px;
+}
+
+.spot_02{
+    position: absolute;
+    left: 67px;
+    bottom: 144px;
 }
 
 @font-face {
