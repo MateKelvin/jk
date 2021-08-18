@@ -111,20 +111,8 @@ body{
       display: none;
     }
     &-bar{
-      display: flex;
-      .list_01{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 26px;
-        color: #685ED6;
-      }
       .list{
         margin: 0 30px;
-        font-weight: normal;
-        font-size: 20px;
-        line-height: 26px;
-        color: #1D2530;
       }
     }
   }
