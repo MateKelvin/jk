@@ -96,7 +96,7 @@ body{
     }
     &-bar{
       display: flex;
-      font-family: 'Gilroy-Regular';
+      font-family: 'Gilroy-Regular', 'sans-serif';
       font-weight: 400;
       font-style: normal;
       .list_01{
@@ -150,7 +150,7 @@ body{
 .desc{
   &-title{
     margin: 3px 0 32px;
-    font-family: 'Gilroy-ExtraBold';
+    font-family: 'Gilroy-ExtraBold', 'sans-serif';
     font-weight: 800;
     font-style: normal;
     font-size: 32px;
@@ -160,7 +160,7 @@ body{
     }
   }
   &-description{
-    font-family: 'Gilroy-Regular';
+    font-family: 'Gilroy-Regular', 'sans-serif';
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -170,7 +170,7 @@ body{
     }
   }
   &-btn{
-    font-family: 'Gilroy-Bold';
+    font-family: 'Gilroy-Bold', 'sans-serif';
     font-weight: 700;
     font-style: normal;
     background-color: $main;
