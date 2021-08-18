@@ -1,4 +1,5 @@
 @import "vars";
+@import "fonts";
 
 html{
   box-sizing: border-box;
@@ -95,6 +96,9 @@ body{
     }
     &-bar{
       display: flex;
+      font-family: 'Gilroy-Regular';
+      font-weight: 400;
+      font-style: normal;
       .list_01{
         text-decoration: none;
         font-style: normal;
@@ -146,9 +150,9 @@ body{
 .desc{
   &-title{
     margin: 3px 0 32px;
-    font-family: Gilroy;
-    font-style: normal;
+    font-family: 'Gilroy-ExtraBold';
     font-weight: 800;
+    font-style: normal;
     font-size: 32px;
     line-height: 40px;
     &-word{
@@ -156,13 +160,19 @@ body{
     }
   }
   &-description{
-    font-family: Gilroy;
+    font-family: 'Gilroy-Regular';
+    font-weight: 400;
     font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 28px;
+    &-word{
+      color: $main;
+    }
   }
   &-btn{
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+    font-style: normal;
     background-color: $main;
     border: none;
     color: #FFFFFF;
@@ -173,7 +183,7 @@ body{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
     border-radius: 6px;
   }
 }
