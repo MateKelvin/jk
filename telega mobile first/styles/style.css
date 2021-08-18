@@ -101,3 +101,15 @@ body {
     margin: 0 30px;
   }
 }
+.hero {
+  height: 625px;
+  margin: 0 auto;
+}
+.hero-container {
+  padding: 0 23px;
+}
+.hero-ilustration {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
