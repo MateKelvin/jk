@@ -1,3 +1,5 @@
+@import "vars";
+
 html{
   box-sizing: border-box;
 }
@@ -68,7 +70,7 @@ body{
       width: 30px;
       height: 2px;
       border-radius: 2px;
-      background-color: #685ED6;
+      background-color: $main;
       position: absolute;
       box-shadow: 0 8px 0 0 #33AFE1, 0 16px 0 0 #18E1F7;
       right: 0;
@@ -93,7 +95,7 @@ body{
         font-weight: 700;
         font-size: 20px;
         line-height: 26px;
-        color: #685ED6;
+        color: $main;
       }
       .list{
         text-decoration: none;
