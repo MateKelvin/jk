@@ -135,7 +135,7 @@ body {
   }
   .menu-bar .list {
     text-decoration: none;
-    margin: 0 12px;
+    margin-left: 24px;
     font-weight: normal;
     font-size: 20px;
     line-height: 26px;
@@ -147,7 +147,7 @@ body {
     display: none;
   }
   .menu-bar .list {
-    margin: 0 30px;
+    margin-left: 60px;
   }
 }
 .hero {
